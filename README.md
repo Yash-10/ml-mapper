@@ -3,16 +3,15 @@ This repository contains the attempts to the evaluation task for ML4SCI's projec
 
 ## Analysis
 
-### Lunar Albedo Map Prediction
+### Lunar Albedo Map
 Out of the several models tested, `XGBoostRegressor` gives the least Root Mean Squared Error (RMSE) ~ 0.03.
 
-<br>
-
 **Lunar - Actual Map**
+
 ![Lunar](images/lunar_albedo.png)
 
 
-### Mercury Albedo Map Prediction
+### Mercury Albedo Map
 The `XGBoostRegressor` gives RMSE value ~ 0.16. Other regressors, for example the `LinearSVR`, give similar results as the `XGBoostRegressor`. For the case of mercury, the chemical composition maps were predicted before predicting the albedo maps.
 
 **Mercury - Actual Map**
@@ -20,9 +19,9 @@ The `XGBoostRegressor` gives RMSE value ~ 0.16. Other regressors, for example th
 
 ### Prediction Results
 
-**Lunar Albedo**
+**Lunar Albedo Map Prediction**
 ![Lunar Albedo](images/lunar_results.png)
 
-**Mercury Albedo**
+**Mercury Albedo Map Prediction**
 ![Mercury Albedo](images/mercury_results_1.png)
 ![Mercury Albedo](images/mercury_results_2.png)
