@@ -22,6 +22,11 @@ The `XGBoostRegressor` gives RMSE value ~ 0.16. Other regressors, for example th
 **Lunar Albedo Map Prediction**
 ![Lunar Albedo](images/lunar_results.png)
 
+
+**Mercury Element Map Prediction**
+![Mercury Element Map](images/mercury_results_3.png)
+
+
 **Mercury Albedo Map Prediction**
 ![Mercury Albedo](images/mercury_results_1.png)
 ![Mercury Albedo](images/mercury_results_2.png)
